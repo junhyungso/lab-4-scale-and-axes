@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 3 Scales and Axes</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="d3.js"></script>
+    <script>
+
+        var yellow = d3.interpolateYlGn(0), // "rgb(255, 255, 229)"
+            yellowGreen = d3.interpolateYlGn(0.5), // "rgb(120, 197, 120)"
+            green = d3.interpolateYlGn(1); // "rgb(0, 69, 41)"
+        
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Wealth & Health of Nations </h1>  
+    </div>
+    <div class="chart">
+        <!-- You will append a SVG here-->
+    </div>
+    <div id="tooltip" class="hidden">
+        <p><span id="value"></span></p>
+    </div>
+</body>
+</html>
